@@ -7,7 +7,7 @@ var $ = require('gulp-load-plugins')();
 // Static server
 gulp.task('serve', function() {
     browserSync({
-        notify : false,
+        notify : true,
         proxy: "http://localhost/BaseBlogPOO/public/"
     });
 });
